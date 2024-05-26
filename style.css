@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    background: url("https://kartinki.pics/uploads/posts/2021-04/thumbs/1617290453_3-p-vse-foni-bravl-stars-3.jpg");
+}
+
+nav{
+  background-image: linear-gradient(to right, #333, #fff);
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+name1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+    background-color: wheat;
+     width:299px;
+}
